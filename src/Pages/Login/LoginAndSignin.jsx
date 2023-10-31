@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import {useState } from "react";
 import * as Components from "./Components";
 import { initializeApp } from "firebase/app";
 import {
@@ -10,13 +10,13 @@ import {
 import addAvatar from "../../assests/addAvatar.png";
 import { redirect, useActionData } from "react-router-dom";
 import { setDoc, getFirestore, doc } from "firebase/firestore";
-import { AuthContext } from "../../Components/AuthContextProvider";
+
 import {
   getDownloadURL,
   getStorage,
   ref,
   uploadBytes,
-  uploadBytesResumable,
+
 } from "firebase/storage";
 
 const firebaseConfig = {

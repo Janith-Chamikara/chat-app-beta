@@ -12,7 +12,7 @@ import DataContextprovider from "./Components/DataContextprovider";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "chat-app-beta/",
     element: <App />,
     children: [
       {
@@ -23,11 +23,11 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/home",
+    path: "chat-app-beta/home",
     element: <ProtectedRoute />,
     children: [
       {
-        path: "/home",
+        path: "chat-app-beta/home",
         element: <Chatapp />,
       },
     ],

@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import LoginAndSignin from "./Pages/Login/LoginAndSignin.jsx";
 import { action as SignInAndSignUpAction } from "./Pages/Login/LoginAndSignin.jsx";
-import Chatapp from "./Components/chatapp.jsx";
+import Chatapp from "./Components/Chatapp";
 import AuthContextProvider from "./Components/AuthContextProvider.jsx";
 import ProtectedRoute from "./Components/ProtectedRoute.jsx";
 import DataContextprovider from "./Components/DataContextprovider";
